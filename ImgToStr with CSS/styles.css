@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    background-color: #212121;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #cac3c3;
+    padding: 2rem;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+.card-header{
+    height:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-body{
+    height: 80%;
+    border: 1px solid #b0b0b0;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+input{
+    width: 380px;
+    border: 2px solid #212121;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1.5rem 0;
+}
+
+textarea{
+    padding: 1rem;
+    border: 2px solid #212121;
+    border-radius: 5px;
+}
